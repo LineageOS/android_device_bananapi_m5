@@ -12,6 +12,10 @@ $(call inherit-product, device/amlogic/g12-common/g12.mk)
 BOARD_HAVE_BLUETOOTH_RTK_TV := true
 include hardware/realtek/rtkbt/rtkbt.mk
 
+## Factory
+PRODUCT_HOST_PACKAGES += \
+    aml_image_packer
+
 ## Init-Files
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc
