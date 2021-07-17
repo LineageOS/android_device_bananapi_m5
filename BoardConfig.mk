@@ -13,6 +13,7 @@ TARGET_BOOTLOADER_BOARD_NAME := m5
 
 ## DTB
 TARGET_DTB_NAME := sm1_s905y3_bananapim5
+TARGET_DTBO_NAME := sm1_s905y3_bananapim5_wifi_overlay
 
 ## Wi-Fi
 BOARD_WLAN_DEVICE := realtek
