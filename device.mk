@@ -22,7 +22,8 @@ PRODUCT_COPY_FILES += \
 
 ## Kernel Modules
 PRODUCT_PACKAGES += \
-    8822cs
+    8822cs \
+    rtk_btusb
 
 ## Overlays
 DEVICE_PACKAGE_OVERLAYS += \
