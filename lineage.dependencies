@@ -4,11 +4,11 @@
     "target_path": "device/amlogic/g12-common"
   },
   {
-    "repository": "android_hardware_amlogic_kernel-modules_rtk_btusb"
+    "repository": "android_hardware_amlogic_kernel-modules_rtk_btusb",
     "target_path": "hardware/amlogic/kernel-modules/rtk_btusb"
   },
   {
-    "repository": "android_hardware_amlogic_kernel-modules_rtl8822cs"
+    "repository": "android_hardware_amlogic_kernel-modules_rtl8822cs",
     "target_path": "hardware/amlogic/kernel-modules/rtl8822cs"
   },
   {
