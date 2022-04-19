@@ -15,6 +15,9 @@ TARGET_BOOTLOADER_BOARD_NAME := m5
 TARGET_DTB_NAME := sm1_s905y3_bananapim5
 TARGET_DTBO_NAME := sm1_s905y3_bananapim5_wifi_overlay
 
+## Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 ## Wi-Fi
 BOARD_WLAN_DEVICE := realtek
 BOARD_WPA_SUPPLICANT_DRIVER := NL80211
