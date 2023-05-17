@@ -16,7 +16,7 @@ set -e
 
 export DEVICE=m5
 export DEVICE_COMMON=g12-common
+export VENDOR=bananapi
 export VENDOR_COMMON=amlogic
-export VENDOR_DEVICE=bananapi
 
 "./../../${VENDOR_COMMON}/${DEVICE_COMMON}/extract-files.sh" "$@"
