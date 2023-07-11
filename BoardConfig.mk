@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021-2022 The LineageOS Project
+# Copyright (C) 2021-2023 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -12,6 +12,9 @@ TARGET_BOOTLOADER_BOARD_NAME := m5
 ## DTB
 TARGET_DTB_NAME := sm1_s905y3_bananapim5
 TARGET_DTBO_NAME := sm1_s905y3_bananapim5_wifi_overlay
+
+## Partitions
+BOARD_SUPER_PARTITION_SIZE := 2084569088
 
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
