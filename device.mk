@@ -8,6 +8,9 @@
 BOARD_HAVE_BLUETOOTH_RTK_TV := true
 include hardware/realtek/rtkbt/rtkbt.mk
 
+PRODUCT_PACKAGES += \
+    BananaPiM5BluetoothOverlay
+
 ## Factory
 PRODUCT_HOST_PACKAGES += \
     aml_image_packer
@@ -20,10 +23,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     8822cs \
     rtk_btusb
-
-## Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
 
 ## TEE
 TARGET_HAS_TEE := false
