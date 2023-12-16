@@ -16,11 +16,6 @@ PRODUCT_HOST_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc
 
-## Kernel Modules
-PRODUCT_PACKAGES += \
-    8822cs \
-    rtk_btusb
-
 ## Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
