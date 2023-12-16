@@ -13,6 +13,11 @@ TARGET_BOOTLOADER_BOARD_NAME := m5
 TARGET_DTB_NAME := sm1_s905y3_bananapim5
 TARGET_DTBO_NAME := sm1_s905y3_bananapim5_wifi_overlay
 
+## Kernel modules
+TARGET_KERNEL_EXT_MODULES := \
+    rtk_btusb:kbuild \
+    rtl8822cs/rtl88x2CS
+
 ## Partitions
 BOARD_SUPER_PARTITION_SIZE := 2084569088
 
