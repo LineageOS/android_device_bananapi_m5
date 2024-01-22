@@ -13,4 +13,6 @@ include $(LOCAL_PATH)/factory.mk
 
 include external/wpa_supplicant_8/wpa_supplicant/wpa_supplicant_conf.mk
 
+-include vendor/amlogic/m5/firmware.mk
+
 endif
