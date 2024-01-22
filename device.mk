@@ -30,3 +30,4 @@ TARGET_HAS_TEE := false
 
 ## Inherit from the common tree product makefile
 $(call inherit-product, device/amlogic/g12-common/g12.mk)
+include vendor/amlogic/m5/firmware.mk
