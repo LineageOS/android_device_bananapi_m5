@@ -10,7 +10,9 @@ set -e
 
 export DEVICE=m5
 export DEVICE_COMMON=g12-common
-export VENDOR=bananapi
+export TARGET_SOC=sm1
+export VENDOR=amlogic
+export VENDOR_BRAND=bananapi
 export VENDOR_COMMON=amlogic
 
 "./../../${VENDOR_COMMON}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
