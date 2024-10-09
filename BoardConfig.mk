@@ -30,7 +30,7 @@ WIFI_DRIVER_SOCKET_IFACE := wlan0
 PRODUCT_CFI_INCLUDE_PATHS += hardware/realtek/wlan/wpa_supplicant_8_lib
 
 ## Include the common tree BoardConfig makefile
-include device/amlogic/g12-common/BoardConfigCommon.mk
+include device/amlogic/sm1-common/BoardConfigCommon.mk
 
 ## Include the proprietary BoardConfig makefile
 include vendor/amlogic/m5/BoardConfigVendor.mk

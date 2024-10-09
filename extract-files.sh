@@ -15,7 +15,7 @@ fi
 set -e
 
 export DEVICE=m5
-export DEVICE_COMMON=g12-common
+export DEVICE_COMMON=sm1-common
 export TARGET_SOC=sm1
 export VENDOR=amlogic
 export VENDOR_BRAND=bananapi
