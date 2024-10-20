@@ -13,6 +13,8 @@ include $(LOCAL_PATH)/factory.mk
 
 include external/wpa_supplicant_8/wpa_supplicant/wpa_supplicant_conf.mk
 
--include vendor/amlogic/m5/firmware.mk
+RADIO_FILES := $(wildcard $(LOCAL_PATH)/radio/*)
+$(foreach f, $(notdir $(RADIO_FILES)), \
+    $(call add-radio-file,radio/$(f)))
 
 endif
