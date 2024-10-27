@@ -29,5 +29,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-droid-tv
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="adt3-user 13 TTT1.230205.001 9565391 release-keys" \
     BuildFingerprint=ADT-3/adt3/adt3:13/TTT1.230205.001/9565391:user/release-keys \
-    DeviceProduct=adt3 \
     SystemName=m5
