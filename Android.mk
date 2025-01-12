@@ -15,6 +15,4 @@ RADIO_FILES := $(wildcard $(LOCAL_PATH)/factory/bootfiles/*)
 $(foreach f, $(notdir $(RADIO_FILES)), \
     $(call add-radio-file,factory/bootfiles/$(f)))
 
-include $(LOCAL_PATH)/factory.mk
-
 endif
