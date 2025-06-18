@@ -36,4 +36,4 @@ BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_rtl
 WIFI_DRIVER_SOCKET_IFACE := wlan0
 
 ## Include the common tree BoardConfig makefile
-include device/amlogic/sm1-common/BoardConfigCommon.mk
+include device/amlogic/g12-common/BoardConfigCommon.mk
