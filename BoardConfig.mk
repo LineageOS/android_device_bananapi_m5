@@ -15,6 +15,9 @@ TARGET_DTBO_NAME := \
     android_p_overlay_dt \
     sm1_s905y3_bananapim5_wifi_overlay
 
+## Kernel config
+TARGET_KERNEL_VARIANT_CONFIG ?= sm1_variant_defconfig
+
 ## Kernel modules
 TARGET_KERNEL_EXT_MODULES := \
     rtk_btusb:kbuild \
@@ -36,4 +39,4 @@ BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_rtl
 WIFI_DRIVER_SOCKET_IFACE := wlan0
 
 ## Include the common tree BoardConfig makefile
-include device/amlogic/sm1-common/BoardConfigCommon.mk
+include device/amlogic/g12-common/BoardConfigCommon.mk
