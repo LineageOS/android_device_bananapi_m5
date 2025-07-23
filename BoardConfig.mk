@@ -15,9 +15,6 @@ TARGET_DTBO_NAME := \
     android_p_overlay_dt \
     sm1_s905y3_bananapim5_wifi_overlay
 
-## Kernel config
-TARGET_KERNEL_VARIANT_CONFIG ?= sm1_variant_defconfig
-
 ## Kernel modules
 TARGET_KERNEL_EXT_MODULES := \
     rtk_btusb:kbuild \
