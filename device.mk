@@ -11,10 +11,6 @@ include hardware/realtek/rtkbt/rtkbt.mk
 PRODUCT_HOST_PACKAGES += \
     aml_image_packer
 
-## Init
-PRODUCT_PACKAGES += \
-    init.amlogic.wifi_buildin.rc
-
 ## Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
