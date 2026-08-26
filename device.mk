@@ -11,10 +11,6 @@ include hardware/realtek/rtkbt/rtkbt.mk
 PRODUCT_HOST_PACKAGES += \
     aml_image_packer
 
-## Init
-PRODUCT_PACKAGES += \
-    init.amlogic.wifi_buildin.rc
-
 ## Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
@@ -30,7 +26,7 @@ PRODUCT_SOONG_NAMESPACES += \
 TARGET_HAS_TEE := false
 
 ## Wi-Fi
-PRODUCT_CFI_INCLUDE_PATHS += hardware/realtek/wlan/wpa_supplicant_8_lib
+include hardware/realtek/wlan/wlan.mk
 
 ## Inherit from the common tree product makefile
 $(call inherit-product, device/amlogic/g12-common/g12.mk)
