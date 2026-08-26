@@ -65,3 +65,5 @@ amlogic-snd-codec-t9015.ko
 amlogic-snd-codec-ad82128.ko
 cfg80211.ko
 mac80211.ko
+rtk_btusb.ko
+8822cs.ko
