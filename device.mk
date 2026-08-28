@@ -30,3 +30,6 @@ PRODUCT_CFI_INCLUDE_PATHS += hardware/realtek/wlan/wpa_supplicant_8_lib
 
 ## Inherit from the common tree product makefile
 $(call inherit-product, device/amlogic/g12-common/g12.mk)
+
+## Inherit from the proprietary files makefile
+$(call inherit-product, vendor/bananapi/m5/m5-vendor.mk)
