@@ -9,10 +9,14 @@ from extract_utils.main import (
     ExtractUtilsModule,
 )
 
+namespace_imports = [
+    'vendor/amlogic/g12-common',
+]
+
 module = ExtractUtilsModule(
     'm5',
     'bananapi',
-    skip_main_proprietary_file=True,
+    namespace_imports=namespace_imports,
 )
 
 if __name__ == '__main__':
