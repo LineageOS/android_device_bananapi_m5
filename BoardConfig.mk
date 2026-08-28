@@ -37,3 +37,6 @@ WIFI_DRIVER_SOCKET_IFACE := wlan0
 
 ## Include the common tree BoardConfig makefile
 include device/amlogic/g12-common/BoardConfigCommon.mk
+
+## Include the proprietary BoardConfig makefile
+include vendor/bananapi/m5/BoardConfigVendor.mk
