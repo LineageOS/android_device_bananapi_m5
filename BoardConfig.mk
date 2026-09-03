@@ -9,10 +9,10 @@ DEVICE_PATH := device/bananapi/m5
 TARGET_BOOTLOADER_BOARD_NAME := m5
 
 ## DTB
-TARGET_DTB_NAME := sm1_s905y3_bananapim5
+TARGET_DTB_NAME := sm1_s905x3_bananapim5
 TARGET_DTBO_NAME := \
     android_p_overlay_dt \
-    sm1_s905y3_bananapim5_wifi_overlay
+    sm1_s905x3_bananapim5_wifi_overlay
 
 ## Kernel modules
 TARGET_KERNEL_EXT_MODULES := \
