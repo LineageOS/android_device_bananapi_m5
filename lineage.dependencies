@@ -1,4 +1,4 @@
-[  
+[
   {
     "repository": "android_device_amlogic_g12-common",
     "target_path": "device/amlogic/g12-common"
@@ -10,6 +10,14 @@
   {
     "repository": "android_hardware_amlogic_kernel-modules_rtl8822cs",
     "target_path": "kernel/amlogic/kernel-modules/rtl8822cs"
+  },
+  {
+    "repository": "android_hardware_amlogic_u-boot",
+    "target_path": "kernel/amlogic/u-boot"
+  },
+  {
+    "repository": "android_hardware_amlogic_u-boot_build",
+    "target_path": "kernel/amlogic/u-boot_build"
   },
   {
     "repository": "android_hardware_realtek",
