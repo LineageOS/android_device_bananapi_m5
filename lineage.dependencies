@@ -12,6 +12,14 @@
     "target_path": "kernel/amlogic/kernel-modules/rtl8822cs"
   },
   {
+    "repository": "android_hardware_amlogic_u-boot",
+    "target_path": "kernel/amlogic/u-boot"
+  },
+  {
+    "repository": "android_hardware_amlogic_u-boot_build",
+    "target_path": "kernel/amlogic/u-boot_build"
+  },
+  {
     "repository": "android_hardware_realtek",
     "target_path": "hardware/realtek"
   }
