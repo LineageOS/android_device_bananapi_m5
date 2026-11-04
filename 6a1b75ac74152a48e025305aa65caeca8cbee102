@@ -16,6 +16,24 @@
       "message": "What happened to the actual removal of this file?",
       "revId": "6a1b75ac74152a48e025305aa65caeca8cbee102",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c7760691_b80cdfb6",
+        "filename": "init/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-11-04T20:31:46Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "bae569ab_c6f9fbfc",
+      "revId": "6a1b75ac74152a48e025305aa65caeca8cbee102",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
