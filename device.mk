@@ -30,7 +30,7 @@ PRODUCT_SOONG_NAMESPACES += \
 TARGET_HAS_TEE := false
 
 ## Wi-Fi
-PRODUCT_CFI_INCLUDE_PATHS += hardware/realtek/wlan/wpa_supplicant_8_lib
+include hardware/realtek/wlan/wlan.mk
 
 ## Inherit from the common tree product makefile
 $(call inherit-product, device/amlogic/g12-common/g12.mk)
